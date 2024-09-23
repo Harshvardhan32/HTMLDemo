@@ -1,0 +1,39 @@
+there are three stages in git version control system
+1. Working stages
+2. Staging Area
+3. Local Repository
+
+git init
+git config --global user.name "Harshvardhan32"
+git config --global user.email "harshvardhanmaurya73073@gmail.com"
+git add export.js
+git add .
+git add ex1.js ex2.js
+git commit "Add new file"
+
+To create branch int github
+git branch -M main
+git remote add origin https://github.com/Harshvardhan32/HTMLDemo.git
+git push -u origin main
+
+For the second developer
+1. git clone https://github.com/Harshvardhan32/HTMLDemo.git
+2. git branch Dev1
+3. git checkout Dev1
+4. git checkout -b Dev1 (directly create new branch and checkout on that)
+5. git add ex1.js
+6. git commit "added address.js"
+7. git push origin Dev13
+8. git checkout main
+9. git merge Dev1
+
+After initializing git it will create 4 folders and 3 files that is:
+Folders:-
+1. hooks
+2. info
+3. objects
+4. refs
+Files:-
+1. config
+2. description
+3. HEAD
